@@ -1,0 +1,81 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@200,400,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open San',sans-serif;
+    padding-top: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 15px;
+    margin: 0 0 20px 0;
+    background-color: #333;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+    .header .uname {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+
+.btn {
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    font-size: 16px;
+    font-family: inherit;
+    // color: #333;
+    cursor: pointer;
+    transition: background-color 0.15s ease-out,color 0.15s ease-out;
+}
+
+.logout-btn {
+    color: #333;
+    background-color: #fff;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+
+
+.logout-btn:hover {
+    background-color: tomato;
+    color: #fff;
+}
+
+input {
+    padding: 7px 15px;
+    border: 1px solid #222;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.dashboard {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
