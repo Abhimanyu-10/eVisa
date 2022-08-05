@@ -6,7 +6,7 @@ This is a simple webapp created using ASP.NET which performs basic CRUD operatio
 
 #Applications Used
 
-Visual Studio.
+Visual Studio,
 SSMS.
 
 #Features:
